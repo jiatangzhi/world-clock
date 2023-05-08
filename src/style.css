@@ -1,7 +1,29 @@
+/* @font-face {
+  font-family: "Digital Font";
+  src: url("/resources/fonts/Digital7Mono-Yz9J4.ttf") format("ttf"),
+    url("/resources/fonts/digital7mono-yz9j4-webfont.woff2") format("woff2"),
+    url("/resources/fonts/digital7mono-yz9j4-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+
 h1 {
   text-align: center;
 }
-
 footer {
   text-align: center;
 }
+
+/* .time {
+  font-family: "Digital Font";
+  font-size: 52px;
+  color: rgb(51, 255, 0);
+  text-shadow: -1px 1px 5px rgb(51, 255, 0);
+  margin: 31px 0;
+} */
+/* .time small {
+  font-size: 26px;
+  vertical-align: middle;
+} */
