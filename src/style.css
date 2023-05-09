@@ -9,24 +9,32 @@
 }
 .container {
   max-width: 600px;
-  margin: 25px auto;
-  background: #b8a3d3;
   padding: 30px;
-  box-shadow: 0px 7px 29px 8px rgba(100, 100, 111, 0.3);
+  margin: 25px auto;
+  background: #c9d7ce;
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -15px 0px inset;
+
   border-radius: 10px;
 }
 body {
-    background-color: rgba(238, 130, 238, 0.39);
-    font-family: sans-serif;
-    text-align: center;
-    padding: 30px;
+  background-color: #6f9283;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
 }
 h1 {
   text-align: center;
   font-family: sans-serif;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
 }
 h2 {
   margin: 0;
+  color: #496e5f;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
 }
 select {
   display: block;
@@ -38,19 +46,25 @@ select {
 .city {
   display: flex;
   justify-content: space-between;
+  text-align: left;
   margin: 31px 0;
   padding: 30px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.7);
+}
+.city:last-child {
+  border: none;
 }
 .date {
   opacity: 0.7;
+  color: #536d62;
+  font-family: "Times New Roman", Times, serif;
 }
 .time {
   font-size: 52px;
   font-family: "Digital Font";
   font-weight: bold;
-  color: rgb(223, 219, 219);
-  text-shadow: -1px 1px 5px rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 1px 5px rgb(0, 0, 0);
 }
 .time small {
   font-size: 26px;
@@ -61,13 +75,13 @@ select {
 footer {
   text-align: center;
   font-family: monospace;
-  color:rgb(0, 0, 0, 0.7)
+  color: rgb(0, 0, 0, 0.7);
 }
 footer a {
-    text-decoration: none;
-    line-height: 1px;
-    color: rgba(32, 143, 124, 0.726);
+  text-decoration: none;
+  line-height: 1px;
+  color: rgba(71, 83, 81);
 }
 footer a:hover {
-    font-weight: 600;
+  font-weight: 600;
 }
