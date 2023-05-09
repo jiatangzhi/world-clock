@@ -80,7 +80,7 @@ footer {
 footer a {
   text-decoration: none;
   line-height: 1px;
-  color: rgba(71, 83, 81);
+  color: rgb(255, 255, 255);
 }
 footer a:hover {
   font-weight: 600;
