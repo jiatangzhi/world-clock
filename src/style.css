@@ -9,7 +9,7 @@
 }
 .container {
   max-width: 600px;
-  padding: 30px;
+  padding: 25px;
   margin: 25px auto;
   background: #c9d7ce;
 
@@ -32,7 +32,7 @@ h1 {
 }
 h2 {
   margin: 0;
-  color: #496e5f;
+  color: #427762;
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
 }
@@ -48,7 +48,7 @@ select {
   justify-content: space-between;
   text-align: left;
   margin: 31px 0;
-  padding: 30px 0;
+  padding: 25px 0;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.7);
 }
 .city:last-child {
