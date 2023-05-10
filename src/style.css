@@ -71,7 +71,11 @@ select {
   vertical-align: middle;
   line-height: 36px;
 }
-
+.go-back {
+  text-decoration: none;
+  padding: 40px;
+  margin-bottom: 20px;
+}
 footer {
   text-align: center;
   font-family: monospace;
